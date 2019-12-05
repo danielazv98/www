@@ -97,6 +97,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* HOME */
+#home-body{
+background-color: #F0F0F0 ;
+}
+#comVisual {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin-bottom: 100px;
+  margin-left: 8px;
+}
+#daniela {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  margin-bottom: 0px;
+  margin-top: 300px;
+}
+
+
+
 /* ABOUT */
 
 #about-body{
@@ -143,7 +162,8 @@ h1 {
 }
 
 #segundaimg{
-  width: 50px;
+ margin-top: 10px;
+  width: 30px;
 }
 
 #copyright {
@@ -164,8 +184,20 @@ margin-left: 80%;
 
 /* PROYECTOS */
 
+
+
+
+#contenido img {
+ width: 100%;
+ max-width: 100%;
+ margin-left: 15%;
+ margin-bottom: 150px;
+}
+
+
 #proyectos-body {
 background-color: #F0F0F0 ;
+
 
 }
 
@@ -174,7 +206,7 @@ background-color: #F0F0F0 ;
   max-width: 100%;
   margin:2px;
   padding: 22px;
-  opacity: 90%;
+  opacity: 95%;
 
 }
 
@@ -183,7 +215,6 @@ background-color: #F0F0F0 ;
 margin-left: 250px;
 
 }
-
 
 .masonry-grid{
   margin-bottom: 100px;
@@ -198,6 +229,97 @@ margin-left: 250px;
 }
 
 
+/* ARENA y gifs de ilustración*/
+ 
+ #gifs {
+width: 40%;
+max-width: 100%;
+
+ }
+
+
+#arena-body{
+background-color: #F0F0F0 ;
+}
+
+
+#laminas img {
+
+  margin-bottom: 40px;
+  margin-right: 70px;
+  width: 100%;
+  max-width: 100%;
+
+}
+
+#laminas {
+
+  margin-bottom: 70px;
+
+}
+
+
+
+/* MATERIA */
+/* RESOLVEEEEEEEEEEEEEER */
+.materiaf img {
+  margin-left: 40%;
+}
+
+#materias ul{
+  display: inline-block;
+}
+
+#materias ul li {
+
+  display: inline-block;
+
+}
+
+#materias img {
+
+  
+  width: 100%;
+  max-width: 100%;
+
+}
+
+#materias {
+
+  margin-bottom: 70px;
+}
+
+/* FLORES */
+ #flores {
+display: inline-block;
+margin-bottom: 100px;
+
+ }
+  #flores img {
+width: 100%;
+max-width: 100%;
+
+ }
+
+ .sos{
+  margin-left: 100px;
+  margin-bottom: 50px;
+ }
+
+ /* VINILES */
+ #viniles {
+display: inline-block;
+
+ }
+  #viniles img {
+width: 100%;
+max-width: 100%;
+
+ }
+ .sos2{
+  margin-left: 130px;
+  margin-bottom: 50px;
+ }
 
 /* MENU */
 
@@ -239,7 +361,8 @@ text-decoration: none;
 #contact-body{
 background-color: #F0F0F0 ;
 background-image: url(../img/arboles.png);
-background-position: bottom  left ;
+background-position: bottom  right ;
+margin-right: 100px;
 background-repeat: no-repeat;
 background-attachment: fixed;
 height: auto;
