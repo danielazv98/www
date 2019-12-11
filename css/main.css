@@ -162,7 +162,7 @@ h1 {
 }
 
 #segundaimg{
- margin-top: 10px;
+  margin-top: 10px;
   width: 30px;
 }
 
@@ -370,7 +370,10 @@ height: auto;
 
 
 
-
+#segundaimg{
+  width: 30px !important;
+  max-width: 30px !important;
+}
 /*---------------------------------------------*/
 input {
   outline: none;
